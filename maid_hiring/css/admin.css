@@ -1,0 +1,24 @@
+
+.bdy{
+    background:  linear-gradient(to right, #8360c3, #2ebf91);
+    height: 350px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 10px 15px ; 
+}
+.bdy h2{
+padding-top: 160px;
+font-size: 40px;
+text-shadow: rgba(118, 37, 37, 0.323) 5px 10px 15px;
+text-align: center;
+background: linear-gradient(to right, #363d7e, #af2997, #ed3034, #eedd44);
+font-size: 40px;
+font-family: sans-serif;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
+}

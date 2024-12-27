@@ -1,0 +1,56 @@
+
+
+.menubar ul {
+    display: flex;
+    margin-top: 25x;
+}
+
+.menubar ul li {
+    margin: 10px auto;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 40px;
+    width: 150px;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu ul li {
+    margin: 0;
+    background: #8a8d8c;
+}
+
+.submenu ul li a {
+    margin: 0;
+    padding: 10px 40px;
+    width: 150px;
+}
+
+.menubar ul li:hover {
+    background: rgb(93, 58, 116);
+    border-radius: 4px;
+}
+
+.menubar ul li:hover .submenu {
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+}
+
+.submenu ul li:hover {
+    background-color: #351710;
+}
+
+.submenu ul {
+    display: block;
+}

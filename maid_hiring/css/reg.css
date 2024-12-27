@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.loginbox{
+    width: 450px;
+    height: 520px;
+    background: #e2dfe9;
+    margin: 180px auto;
+    border-radius: 50px 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0b0b0b;
+    font-family: "Ubuntu", sans-serif;
+}
+.logo{
+
+    width: 100px;
+    height:100px;
+    position: relative;
+    top: -70px;
+    left: calc(50% - 50px);
+
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: -60px;
+    color: #333535;
+    font-family: "Ubuntu", sans-serif;
+    padding: auto;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    margin-left: 20px;
+    color:black;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+input{
+    width: 80%;
+    margin: 0 0 20px 20px;
+}
+
+input[type="text"],input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    border-radius: 20px;
+    background: #fb2525;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.link {
+    margin-left:4%;
+}
+.link a:hover{
+    color:  rgb(37, 184, 184);
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #03133c;
+    margin-left:2%;
+}
+#ks{
+    color:white;
+    text-decoration: none;
+  
+    padding: 10px 25px;
+    border: none;
+    border-radius: 40px;
+    background-color: #00093c;
+    
+   
+}
+input[type="submit"]:hover{
+    background: blueviolet;
+}
